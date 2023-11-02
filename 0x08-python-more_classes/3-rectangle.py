@@ -94,4 +94,3 @@ class Rectangle:
                 lambda x: '#' * self.width + '\n' * (x != self.height - 1),
                 range(self.height)))
             return ''.join(res)
-        
